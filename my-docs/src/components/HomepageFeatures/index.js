@@ -1,48 +1,35 @@
-import clsx from 'clsx';
 import Heading from '@theme/Heading';
 import styles from './styles.module.css';
+import Link from '@docusaurus/Link';
 
 const FeatureList = [
   {
-    title: 'Identity Resolution',
+    title: 'Web Javascript',
     description: (
       <>
-        Resolve user identities across multiple devices and channels, creating a
-        unified view of your customers.
+        Vanilla SDK integration.
       </>
     ),
-  },
-  {
-    title: 'Privacy-First Approach',
-    //Svg: require('@site/static/img/privacy.svg').default, // Replace with your custom SVG
-    description: (
-      <>
-        Built with privacy at its core, the Zeotap SDK ensures compliance with
-        global data protection regulations.
-      </>
-    ),
-  },
-  {
-    title: 'Developer-Friendly',
-    //Svg: require('@site/static/img/developer.svg').default, // Replace with your custom SVG
-    description: (
-      <>
-        The SDK is designed for easy integration with clear documentation and examples.
-      </>
-    ),
-  },
+    buttonText: "WebJs Documentation",
+    redirectLink: '/docs/intro'
+  }
 ];
 
-function Feature({Svg, title, description}) {
+function Feature({title, description, buttonText, redirectLink}) {
   return (
-    <div className={clsx('col col--4')}>
-      <div className="text--center">
-        {/* <Svg className={styles.featureSvg} role="img" /> */}
-      </div>
+    <div className={styles.featureContainer}>
       <div className="text--center padding-horiz--md">
         <Heading as="h3">{title}</Heading>
         <p>{description}</p>
+        <div className={styles.buttons}>
+          <Link
+            className="button button--secondary button--lg"
+            to={redirectLink}>
+            {buttonText}
+          </Link>
+        </div>
       </div>
+      
     </div>
   );
 }
