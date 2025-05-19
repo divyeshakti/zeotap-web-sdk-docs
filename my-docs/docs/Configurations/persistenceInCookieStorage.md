@@ -42,4 +42,4 @@ window.zeotap.init("YOUR_WRITE_KEY", {
 ZI is always stamped in cookie storage irrespective of this option's value. In case, cookie storage is not available, then ZI is stamped in local storage.
 :::
 
-Try out this <a href="https://github.com/rishabh-zeo/zeotap-web-sdk-docs/tree/master/my-docs/static/examples/configurations/persistenceInCookieStorage" target="_blank">example</a>. 
+Try out this <a href="https://github.com/zeotap/zeotap-web-sdk-docs/tree/main/my-docs/static/examples/configurations/persistenceInCookieStorage" target="_blank">example</a>. 

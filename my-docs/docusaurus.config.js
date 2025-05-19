@@ -20,13 +20,13 @@ const config = {
   // // For GitHub pages deployment, it is often '/<projectName>/'
   // baseUrl: '/',
 
-  url: 'https://rishabh-zeo.github.io/', // Your GitHub username or org name here
+  url: 'https://zeotap.github.io/', // Your GitHub username or org name here
   baseUrl: '/zeotap-web-sdk-docs/', // *** The name of your GitHub repository ***
 
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'rishabh-zeo', // Usually your GitHub org/user name.
+  organizationName: 'zeotap', // Usually your GitHub org/user name.
   projectName: 'zeotap-web-sdk-docs', // Usually your repo name.
 
   onBrokenLinks: 'warn',
@@ -47,10 +47,6 @@ const config = {
       ({
         docs: {
           sidebarPath: './sidebars.js',
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         blog: {
           path: './blog',
@@ -71,7 +67,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'img/zeotap_logo.svg',
       navbar: {
         title: '',
         logo: {

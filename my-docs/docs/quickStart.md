@@ -77,4 +77,4 @@ To track user events, you can use the `setEventProperties` method:
 ```
 
 ## Example
-Check out <a href="https://github.com/rishabh-zeo/zeotap-web-sdk-docs/tree/master/my-docs/static/examples" target="_blank">this example.</a> 
+Check out <a href="https://github.com/zeotap/zeotap-web-sdk-docs/tree/main/my-docs/static/examples" target="_blank">this example.</a> 

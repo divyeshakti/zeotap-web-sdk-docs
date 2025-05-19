@@ -39,5 +39,5 @@ window.zeotap.init("YOUR_WRITE_KEY", {
 
 See detailed guide about [```window.zeotap.setConsent()```](../APIReference/setConsent)
 
-Try out this <a href="https://github.com/rishabh-zeo/zeotap-web-sdk-docs/tree/master/my-docs/static/examples/consent/customConsent" target="_blank">example</a>. 
+Try out this <a href="https://github.com/zeotap/zeotap-web-sdk-docs/tree/main/my-docs/static/examples/consent/customConsent" target="_blank">example</a>. 
 

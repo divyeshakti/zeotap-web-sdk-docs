@@ -21,7 +21,7 @@ The ID5 integration is controlled by the following options within the SDK's `ini
 
 *   **Type:** `Boolean`
 *   **Default:** `false`
-*   **Description:** This is the master switch for the ID5 integration.
+*   **Description:** This is the main switch for the ID5 integration.
     *   Set to `true` to activate the integration. The SDK will attempt to fetch the ID5 ID and include it in event payloads sent to Zeotap.
     *   Set to `false` (or omit) to keep the integration disabled.
 

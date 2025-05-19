@@ -43,6 +43,4 @@ window.zeotap.init("YOUR_WRITE_KEY");
 ```
 
 
-Try out this <a href="https://github.com/rishabh-zeo/zeotap-web-sdk-docs/tree/master/my-docs/static/examples/consent/defaultConsent" target="_blank">example</a>. 
-
-
+Try out this <a href="https://github.com/zeotap/zeotap-web-sdk-docs/tree/main/my-docs/static/examples/consent/defaultConsent" target="_blank">example</a>. 
