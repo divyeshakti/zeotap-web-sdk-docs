@@ -1,3 +1,4 @@
+import clsx from 'clsx';
 import Heading from '@theme/Heading';
 import styles from './styles.module.css';
 import Link from '@docusaurus/Link';
@@ -11,7 +12,29 @@ const FeatureList = [
       </>
     ),
     buttonText: "WebJs Documentation",
-    redirectLink: '/docs/intro'
+    redirectLink: 'websdk/docs/intro'
+  },
+  {
+    title: 'Google Tag Manager (GTM)',
+    description: (
+      <>
+        SDK Integration using Google Tag Manager (GTM).
+      </>
+    ),
+    buttonText: "GTM Documentation",
+     redirectLink: 'gtm/docs/intro'
+    
+  },
+  {
+    title: 'Adobe Launch',
+    description: (
+      <>
+        SDK Integration using Adobe Launch.
+      </>
+    ),
+    buttonText: "Adobe Launch Documentation",
+     redirectLink: 'adobeLaunch/docs/intro'
+    
   }
 ];
 
