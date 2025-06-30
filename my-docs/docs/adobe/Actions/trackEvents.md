@@ -53,3 +53,5 @@ To configure the **Track Event** action within a rule:
 > **Using Data Elements**: For dynamic values (like product details, page names, or user segments), it's highly recommended to use Adobe Launch **Data Elements**. You can then reference these Data Elements in the property value fields within the action configuration using the `%DataElementName%` syntax.
 
 > ![Track Event Rule](../../../static/img/Adobe/Adobe_TrackEvents.png)
+
+For more information about other actions, see our guides on [syncing user identities](/docs/adobe/Actions/syncUserIdentity) and [managing consent](/docs/adobe/Actions/setCustomConsent). To learn about setting up rules and actions in general, refer to our [actions setup guide](/docs/adobe/Actions/actions).

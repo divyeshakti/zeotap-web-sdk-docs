@@ -4,7 +4,7 @@ title: Choosing a Consent Strategy
 description: Understand the different ways to manage user consent with the Zeotap Web SDK and choose the best approach for your needs.
 ---
 
-TODO: recheck content for this!!
+
 
 # Choosing Your Consent Management Strategy
 
@@ -52,7 +52,6 @@ The primary goal is to ensure that the Zeotap SDK only collects and processes us
 *   **Pros:** Flexible, allows integration with any system.
 *   **Cons:** Requires more development effort to build and maintain the consent logic and UI. You are responsible for correctly interpreting and translating consent signals.
 
-TODO: is it needed? 
 ## Decision Flow
 
 1.  **Are you subject to GDPR or similar privacy regulations?**

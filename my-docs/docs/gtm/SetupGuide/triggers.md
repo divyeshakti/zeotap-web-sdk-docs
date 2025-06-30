@@ -6,13 +6,13 @@ description: Learn how to set up triggers for the Zeotap Collect Tag in Google T
 
 # 5. Set Up the Trigger
 
-Once the inputs for the Zeotap Collect Tag have been configured, the next step is to define **when** the tag should fire. This is done by setting up triggers within Google Tag Manager (GTM).
+Once the inputs for the Zeotap Collect Tag have been configured (see [Step 3: Configure the Tag](/docs/gtm/SetupGuide/Configuration/configureTheTag)), the next step is to define **when** the tag should fire. This is done by setting up triggers within Google Tag Manager (GTM).
 
 Triggers control the execution of the tag, and they determine which events on your website should result in the tag being fired. 
 
 Depending on your data collection needs, you can configure the trigger to fire for:
 
-- **All Page Views**: Use GTM’s built-in `All Pages` trigger if you only want to track page views.
+- **All Page Views**: Use GTM's built-in `All Pages` trigger if you only want to track page views.
 - **All Events**: Use a custom event trigger to capture a broader range of events, such as clicks, form submissions, or custom-defined events.
 
 ---
@@ -99,7 +99,7 @@ Regex Pattern: ^(?!gtm\.load)(?!gtm\.dom).*
 Trigger Type: Custom Event
 ```
 
-Once your trigger is created and linked to the Zeotap Collect Tag, the tag will begin to send event data as configured.
+Once your trigger is created and linked to the Zeotap Collect Tag, the tag will begin to send event data as configured. After setting up triggers, proceed to [validate](/docs/gtm/SetupGuide/validation) your implementation to ensure everything is working correctly.
 
-You can refer the [offical GTM documentation](https://support.google.com/tagmanager/answer/7679316?hl=en) //todo update the link to learn more about triggers.
+You can refer to the [official GTM documentation](https://support.google.com/tagmanager/answer/7679316?hl=en) to learn more about triggers.
 

@@ -61,5 +61,4 @@ window.zeotap.init("YOUR_WRITE_KEY", {
   id5PartnerId: 12345,     // Replace 12345 with YOUR actual ID5 Partner ID
   // sendPartnerDataToID5 defaults to false
 });
-
-//TODO add working exmample and guide for id5
+```

@@ -6,7 +6,7 @@ description: Step-by-step instructions to install and add the Zeotap Collect Ext
 
 # Installing the Zeotap Collect Extension
 
-Before you can configure rules or begin tracking events, you need to install the **Zeotap Collect Extension** into your **Adobe Experience Platform Launch** property.
+Before you can [configure rules](/docs/adobe/Actions/actions) or begin [tracking events](/docs/adobe/Actions/trackEvents), you need to install the **Zeotap Collect Extension** into your **Adobe Experience Platform Launch** property.
 
 This section walks you through the installation process, including locating the extension, assigning it to your environment, and publishing changes.
 
@@ -58,7 +58,7 @@ Once installed:
 
 - Go to the **Installed** tab
 - Click on **Zeotap Collect**
-- Proceed to configure the extension [here](./configure)
+- Proceed to [configure the extension](/docs/adobe/configure)
 
 > ![Installed Zeotap Extension](../../static/img/Adobe/Adobe_Configure.png)
 
@@ -72,4 +72,6 @@ Once installed:
 - Click **Submit**, **Approve**, and **Publish** (if ready)
 
 > ![Publishing Flow](../../static/img/Adobe/Adobe_Save.png)
+
+After installation and configuration, you can proceed to set up [rules and actions](/docs/adobe/Actions/actions) for tracking events, syncing user identities, and managing consent.
 

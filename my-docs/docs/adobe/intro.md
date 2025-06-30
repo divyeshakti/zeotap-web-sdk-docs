@@ -22,7 +22,7 @@ Adobe Launch is a tag management system that helps manage and deploy marketing a
 
 - **No-code deployment**: Configure tag rules visually without coding.
 - **Consent-aware**: Fully supports GDPR, TCF 2.0, and custom consent workflows.
-- **Modular rules**: Fine-grained control using Adobe’s Event → Condition → Action rule engine.
+- **Modular rules**: Fine-grained control using Adobe's Event → Condition → Action rule engine.
 - **Extensible**: Works with Adobe Analytics, CMPs, and third-party tools like ID5.
 
 ---
@@ -31,9 +31,9 @@ Adobe Launch is a tag management system that helps manage and deploy marketing a
 
 | Feature                    | Description |
 |----------------------------|-------------|
-| **Event Tracking**         | Capture user interactions like page views, product clicks, form submissions, etc. |
-| **User Identity Capture**  | Collect raw or hashed PII and custom IDs like ECID, CRM ID. |
-| **Consent Management**     | Supports GDPR/TCF, default opt-in, and custom flows via `Set Custom Consent`. |
+| **Event Tracking**         | Capture user interactions like page views, product clicks, form submissions, etc. Learn more about [tracking events](/docs/adobe/Actions/trackEvents). |
+| **User Identity Capture**  | Collect raw or hashed PII and custom IDs like ECID, CRM ID. See our guide on [syncing user identities](/docs/adobe/Actions/syncUserIdentity). |
+| **Consent Management**     | Supports GDPR/TCF, default opt-in, and custom flows via `Set Custom Consent`. Learn about [setting custom consent](/docs/adobe/Actions/setCustomConsent). |
 | **Cookie Syncing**         | Enabled by default for Zeotap and partner platforms. |
 | **ID5 Integration**        | Capture ID5 identifiers for identity enrichment. |
 
@@ -43,12 +43,12 @@ Adobe Launch is a tag management system that helps manage and deploy marketing a
 
 This guide walks you through:
 
-1. Installing the Zeotap Collect Extension in Adobe Launch
-2. Configuring core settings like consent method, write key, and identity handling
-3. Creating Rules to use Zeotap Extensions [Actions](./Actions) to:
-   - [Track Events](./Actions/trackEvents)
-   - [Sync User Identities](./Actions/syncUserIdentity)
-   - [Track Consent](./Actions/setCustomConsent) (Custom Consent)
+1. [Installing](/docs/adobe/installation) the Zeotap Collect Extension in Adobe Launch
+2. [Configuring](/docs/adobe/configure) core settings like consent method, write key, and identity handling
+3. Creating Rules to use Zeotap Extensions [Actions](/docs/adobe/Actions/actions) to:
+   - [Track Events](/docs/adobe/Actions/trackEvents)
+   - [Sync User Identities](/docs/adobe/Actions/syncUserIdentity)
+   - [Track Consent](/docs/adobe/Actions/setCustomConsent) (Custom Consent)
 
 Each step includes relevant Adobe Launch UI references, screenshots, and real implementation examples.
 
@@ -62,7 +62,7 @@ Before diving into the Zeotap integration, it's helpful to understand some core 
 
 *   **Extensions:** An extension is a package of code (JavaScript, HTML, and CSS) that extends the functionality of Adobe Launch. Think of extensions as apps or plugins that you install into your Launch property to add specific capabilities, like the Zeotap Collect Extension. [Learn more about Extensions.](https://experienceleague.adobe.com/en/docs/experience-platform/tags/ui/extensions/overview)
 
-*   **Rules:** Rules are the heart of Adobe Launch, defining the logic for when and how your tags and extensions should behave. They follow an ‘if/then’ structure, combining Events (triggers), Conditions (optional criteria), and Actions (what to do, e.g., fire the Zeotap tag). [Learn more about Rules](https://experienceleague.adobe.com/en/docs/experience-platform/tags/ui/rules)
+*   **Rules:** Rules are the heart of Adobe Launch, defining the logic for when and how your tags and extensions should behave. They follow an 'if/then' structure, combining Events (triggers), Conditions (optional criteria), and Actions (what to do, e.g., fire the Zeotap tag). [Learn more about Rules](https://experienceleague.adobe.com/en/docs/experience-platform/tags/ui/rules)
 
 *   **Data Elements:** Data Elements are variables you create in Launch to point to specific pieces of information on your website (e.g., from cookies, JavaScript variables, DOM elements, or query parameters). They act as a data dictionary for your site and can be used to dynamically populate fields when configuring Rules and Actions, ensuring your tags send the correct, context-specific data. [Learn more about Data Elements](https://experienceleague.adobe.com/en/docs/experience-platform/tags/ui/data-elements).
 

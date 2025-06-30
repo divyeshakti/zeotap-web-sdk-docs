@@ -8,10 +8,9 @@ description: Learn how to create and configure rules in Adobe Launch to load the
 
 In Adobe Launch, **Rules** define when and how extensions should act. The Zeotap Collect Extension relies on rules to determine when to:
 
-
-- [Send events](./trackEvents)  (e.g., page views, clicks, form submissions)
-- [Sync user identities](./syncUserIdentity)
-- [Set consent or Brand Consent properties](./setCustomConsent)
+- [Send events](/docs/adobe/Actions/trackEvents) (e.g., page views, clicks, form submissions)
+- [Sync user identities](/docs/adobe/Actions/syncUserIdentity)
+- [Set consent or Brand Consent properties](/docs/adobe/Actions/setCustomConsent)
 
 A rule in Adobe Launch follows the structure:
 
@@ -19,7 +18,7 @@ A rule in Adobe Launch follows the structure:
 Event → Condition (optional) → Action
 ```
 
-This section walks you through configuring all essential rules for Zeotap integration.
+This section walks you through configuring all essential rules for Zeotap integration. Before setting up actions, make sure you have [installed](/docs/adobe/installation) and [configured](/docs/adobe/configure) the Zeotap extension.
 
 ---
 
@@ -50,4 +49,6 @@ Loads the Zeotap SDK on every page where you want to collect data.
    - Extension: **Zeotap Collect**
    - Action Type: **Load SDK**
 5. Click **Save** and add it to your build library
+
+For more information about specific actions, see our guides on [tracking events](/docs/adobe/Actions/trackEvents), [syncing user identities](/docs/adobe/Actions/syncUserIdentity), and [managing consent](/docs/adobe/Actions/setCustomConsent).
 

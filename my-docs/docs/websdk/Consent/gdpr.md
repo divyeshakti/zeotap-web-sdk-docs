@@ -71,6 +71,5 @@ window.zeotap.setConsent({
   track: true, // This value is IGNORED when checkForCMP is true
   brand1Consent: true // This custom/brand consent IS processed
 });
+```
 
-
-//TODO need to add example for gdpr
