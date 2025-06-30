@@ -6,7 +6,7 @@ description: Learn how to validate the Zeotap Collect Tag using Google Tag Manag
 
 # 6. Validate the Configured Collect Tag
 
-Once you have [added](/docs/gtm/SetupGuide/addTagToGTM), [configured](/docs/gtm/SetupGuide/Configuration/configureTheTag), and [assigned a trigger](/docs/gtm/SetupGuide/triggers) to the Zeotap Collect Tag, it is important to validate that everything is working as expected. Google Tag Manager provides a built-in **Preview Mode** which allows you to test your tags in a live environment without publishing changes.
+Once you have [added](/gtm/docsSetupGuide/addTagToGTM), [configured](/gtm/docsSetupGuide/Configuration/configureTheTag), and [assigned a trigger](/gtm/docsSetupGuide/triggers) to the Zeotap Collect Tag, it is important to validate that everything is working as expected. Google Tag Manager provides a built-in **Preview Mode** which allows you to test your tags in a live environment without publishing changes.
 
 Follow the steps below to validate the tag setup.
 
@@ -66,4 +66,4 @@ By completing these steps, you can confirm:
 - It fires only for the intended events.
 - Event data is being pushed to the `dataLayer`.
 
-This process helps ensure that the Zeotap Collect Tag is functioning properly before publishing your GTM container changes to production. If you need to make any adjustments, you can go back to the [configuration](/docs/gtm/SetupGuide/Configuration/configureTheTag) or [trigger](/docs/gtm/SetupGuide/triggers) setup steps.
+This process helps ensure that the Zeotap Collect Tag is functioning properly before publishing your GTM container changes to production. If you need to make any adjustments, you can go back to the [configuration](/gtm/docsSetupGuide/Configuration/configureTheTag) or [trigger](/gtm/docsSetupGuide/triggers) setup steps.

@@ -6,7 +6,7 @@ sidebar_position: 2
 
 # Step 2: Adding the Zeotap Collect Tag
 
-Once you have successfully added the Zeotap Collect Tag Template to your Google Tag Manager (GTM) workspace (either from the gallery or by [importing the template](/docs/gtm/SetupGuide/importTemplateToGTM)), the next step is to add the actual tag that will use this template.
+Once you have successfully added the Zeotap Collect Tag Template to your Google Tag Manager (GTM) workspace (either from the gallery or by [importing the template](/gtm/docsSetupGuide/importTemplateToGTM)), the next step is to add the actual tag that will use this template.
 
 Follow these steps to add the Zeotap Collect Tag:
 
@@ -35,4 +35,4 @@ Follow these steps to add the Zeotap Collect Tag:
 
 After selecting the Zeotap Collect Tag Template, you will need to configure its various options, such as Initialization Options, Tracking settings, Login and Identities, etc. 
 
-For detailed instructions on this, please proceed to the [**Step 3: Configure the Tag**](/docs/gtm/SetupGuide/Configuration/configureTheTag) guide. After configuration, you'll need to set up [triggers](/docs/gtm/SetupGuide/triggers) and [validate](/docs/gtm/SetupGuide/validation) your implementation. 
+For detailed instructions on this, please proceed to the [**Step 3: Configure the Tag**](/gtm/docsSetupGuide/Configuration/configureTheTag) guide. After configuration, you'll need to set up [triggers](/gtm/docsSetupGuide/triggers) and [validate](/gtm/docsSetupGuide/validation) your implementation. 

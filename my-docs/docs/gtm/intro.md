@@ -12,8 +12,8 @@ Google Tag Manager (GTM) is a powerful system that simplifies the management and
 
 GTM operates with three fundamental elements:
 
--   **Tags**: These are snippets of JavaScript or tracking pixels from third-party services (e.g., Google Analytics, Facebook Pixel, or custom HTML tags like the Zeotap Collect Tag). Learn more about [adding the Zeotap tag to GTM](/docs/gtm/SetupGuide/addTagToGTM).
--   **Triggers**: These define when and how a tag should be activated (fired). For instance, a trigger could fire a tag on a page view, a button click, or a custom event. See our guide on [setting up triggers](/docs/gtm/SetupGuide/triggers).
+-   **Tags**: These are snippets of JavaScript or tracking pixels from third-party services (e.g., Google Analytics, Facebook Pixel, or custom HTML tags like the Zeotap Collect Tag). Learn more about [adding the Zeotap tag to GTM](/gtm/docsSetupGuide/addTagToGTM).
+-   **Triggers**: These define when and how a tag should be activated (fired). For instance, a trigger could fire a tag on a page view, a button click, or a custom event. See our guide on [setting up triggers](/gtm/docsSetupGuide/triggers).
 -   **Variables**: These are placeholders for values that GTM might need for tags and triggers to function correctly. They can be built-in (like Page URL) or user-defined (like a specific data layer value).
 
 ## Prerequisites
@@ -39,5 +39,5 @@ The Zeotap Collect Tag is offered as a **custom template** within Google Tag Man
 
 GTM's custom templates empower organizations to create their own tag and variable definitions. This allows for standardized and reusable components that can be used alongside GTM's built-in templates. Custom templates, like the Zeotap Collect Tag, provide a user-friendly interface (with text input fields, settings, tables, dropdowns, etc.) for configuring the underlying custom code, simplifying complex tag deployments.
 
-To get started with the Zeotap GTM template, follow our [import template guide](/docs/gtm/SetupGuide/importTemplateToGTM) and then proceed with [validation](/docs/gtm/SetupGuide/validation) to ensure everything is working correctly.
+To get started with the Zeotap GTM template, follow our [import template guide](/gtm/docsSetupGuide/importTemplateToGTM) and then proceed with [validation](/gtm/docsSetupGuide/validation) to ensure everything is working correctly.
 
