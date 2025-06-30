@@ -118,4 +118,4 @@ If you plan to capture and sync ID5 identifiers:
 3. Add the updated extension config to your active library.
 4. Submit, approve, and publish the changes to your environment.
 
-After configuration is complete, you can proceed to set up [rules and actions](/adobeLaunch/docs/Actions/ctions) for tracking events, syncing user identities, and managing consent.
+After configuration is complete, you can proceed to set up [rules and actions](/adobeLaunch/docs//Actions/) for tracking events, syncing user identities, and managing consent.
