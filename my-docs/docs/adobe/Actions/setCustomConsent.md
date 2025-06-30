@@ -54,4 +54,4 @@ To configure the **Set Custom Consent** action within a rule:
 *   **Data Element Mapping:** Correctly configure your Data Elements to fetch the consent values from your website's consent solution.
 *   **Timing:** This action should ideally fire as soon as a user makes or updates their consent choices.
 
-For more information about other actions, see our guides on [tracking events](/adobeLaunch/docs/Actions/trackEvents) and [syncing user identities](/adobeLaunch/docs/Actions/syncUserIdentity). To learn about setting up rules and actions in general, refer to our [actions setup guide](/adobeLaunch/docs//Actions/).
+For more information about other actions, see our guides on [tracking events](/adobeLaunch/docs/Actions/trackEvents) and [syncing user identities](/adobeLaunch/docs/Actions/syncUserIdentity). To learn about setting up rules and actions in general, refer to our [actions setup guide](/adobeLaunch/docs/Actions/).
