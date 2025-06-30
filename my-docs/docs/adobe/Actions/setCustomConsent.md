@@ -28,7 +28,7 @@ To configure the **Set Custom Consent** action within a rule:
     *   Set the **Extension** to **Zeotap Collect**.
     *   Set the **Action Type** to **Set Custom Consent**.
     *   **Configure Consent Properties:** Within the action settings, you will define the consent signals:
-        *   **Primary Consent (if ["Custom Consent"](/docs/adobe/configure#3-custom-consent) method is selected in extension configuration):**
+        *   **Primary Consent (if ["Custom Consent"](/adobe/docs/configure#3-custom-consent) method is selected in extension configuration):**
             *   `track` (Boolean): Set to `true` to allow event tracking, `false` to disallow. You'll map this to a Data Element that reflects the user's choice for tracking.
             *   `cookieSync` (Boolean): Set to `true` to allow cookie syncing, `false` to disallow. Map this to a Data Element reflecting the user's choice for cookie syncing.
         *   **Brand Consent (always available to send):**
@@ -54,4 +54,4 @@ To configure the **Set Custom Consent** action within a rule:
 *   **Data Element Mapping:** Correctly configure your Data Elements to fetch the consent values from your website's consent solution.
 *   **Timing:** This action should ideally fire as soon as a user makes or updates their consent choices.
 
-For more information about other actions, see our guides on [tracking events](/docs/adobe/Actions/trackEvents) and [syncing user identities](/docs/adobe/Actions/syncUserIdentity). To learn about setting up rules and actions in general, refer to our [actions setup guide](/docs/adobe/Actions/actions).
+For more information about other actions, see our guides on [tracking events](/adobe/docs/Actions/trackEvents) and [syncing user identities](/adobe/docs/Actions/syncUserIdentity). To learn about setting up rules and actions in general, refer to our [actions setup guide](/adobe/docs/Actions/actions).

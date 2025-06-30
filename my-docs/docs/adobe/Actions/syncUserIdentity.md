@@ -47,4 +47,4 @@ _satellite.track('sync_identity', {
 
 > ![Sync Identity Rule](../../../static/img/Adobe/Adobe_SyncUserIdentitites.png)
 
-For more information about other actions, see our guides on [tracking events](/docs/adobe/Actions/trackEvents) and [managing consent](/docs/adobe/Actions/setCustomConsent). To learn about setting up rules and actions in general, refer to our [actions setup guide](/docs/adobe/Actions/actions).
+For more information about other actions, see our guides on [tracking events](/adobe/docs/Actions/trackEvents) and [managing consent](/adobe/docs/Actions/setCustomConsent). To learn about setting up rules and actions in general, refer to our [actions setup guide](/adobe/docs/Actions/actions).
