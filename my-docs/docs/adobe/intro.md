@@ -45,7 +45,7 @@ This guide walks you through:
 
 1. [Installing](/adobeLaunch/docs/installation) the Zeotap Collect Extension in Adobe Launch
 2. [Configuring](/adobeLaunch/docs/configure) core settings like consent method, write key, and identity handling
-3. Creating Rules to use Zeotap Extensions [Actions](/adobeLaunch/docs/Actions/actions) to:
+3. Creating Rules to use Zeotap Extensions [Actions](/adobeLaunch/docs/Actions/ctions) to:
    - [Track Events](/adobeLaunch/docs/Actions/trackEvents)
    - [Sync User Identities](/adobeLaunch/docs/Actions/syncUserIdentity)
    - [Track Consent](/adobeLaunch/docs/Actions/setCustomConsent) (Custom Consent)

@@ -54,4 +54,4 @@ To configure the **Track Event** action within a rule:
 
 > ![Track Event Rule](../../../static/img/Adobe/Adobe_TrackEvents.png)
 
-For more information about other actions, see our guides on [syncing user identities](/adobeLaunch/docs/Actions/syncUserIdentity) and [managing consent](/adobeLaunch/docs/Actions/setCustomConsent). To learn about setting up rules and actions in general, refer to our [actions setup guide](/adobeLaunch/docs/Actions/actions).
+For more information about other actions, see our guides on [syncing user identities](/adobeLaunch/docs/Actions/syncUserIdentity) and [managing consent](/adobeLaunch/docs/Actions/setCustomConsent). To learn about setting up rules and actions in general, refer to our [actions setup guide](/adobeLaunch/docs/Actions/ctions).
