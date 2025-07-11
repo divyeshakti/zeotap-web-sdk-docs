@@ -166,10 +166,10 @@ const config = {
                 label: 'Documentation',
                 to: '/gtm/docs/intro',
               },
-              {
-                label: 'Release Notes',
-                to: '/gtm/release-notes',
-              },
+              // {
+              //   label: 'Release Notes',
+              //   to: '/gtm/release-notes',
+              // },
             ],
           },
           {
@@ -180,10 +180,10 @@ const config = {
                 label: 'Documentation',
                 to: '/adobeLaunch/docs/intro',
               },
-              {
-                label: 'Release Notes',
-                to: '/adobeLaunch/release-notes',
-              },
+              // {
+              //   label: 'Release Notes',
+              //   to: '/adobeLaunch/release-notes',
+              // },
             ],
           },
           {
