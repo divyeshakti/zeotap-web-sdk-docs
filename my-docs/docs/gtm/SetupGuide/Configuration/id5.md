@@ -1,7 +1,7 @@
 ---
 sidebar_position: 5
 title: 5. ID5 Integration
-description: 
+description: ID5 Intgration in GTM template
 ---
 
 ## ID5 Integration in GTM Template
