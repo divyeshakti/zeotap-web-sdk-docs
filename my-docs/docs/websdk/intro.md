@@ -17,11 +17,11 @@ Ready to unlock the full potential of your customer data? Follow these steps to 
 
 1. **Installation:** Learn how to quickly integrate the Zeotap SDK into your application. [Quick Start Guide](./quickStart)
 2. **Configuration:** Configure the SDK. [Configuration Guide](./configurations)
-3. **API Reference:** See all the available methods. [API Reference Guide](/docs/category/guides--references)
-4. **Consent Resolution:** Configure consent resolution mechanism. [Consent Resolution Guide](/docs/Consent/consentStrategy)
-5. **Examples:** Guide to different use cases and their implementation. [Examples Guide](/docs/examples)
+3. **API Reference:** See all the available methods. [API Reference Guide](/websdk/docs/category/guides--references)
+4. **Consent Resolution:** Configure consent resolution mechanism. [Consent Resolution Guide](/websdk/docs/Consent/consentStrategy)
+5. **Examples:** Guide to different use cases and their implementation. [Examples Guide](/websdk/docs/examples)
 
 ## Support
 
-If you have any questions or need assistance, please refer to the [FAQ](/docs/category/FAQ) section or contact our support team.
+If you have any questions or need assistance, please refer to the [FAQ](/websdk/docs/category/FAQ) section or contact our support team.
 
