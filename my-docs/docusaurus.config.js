@@ -153,6 +153,33 @@ const config = {
         blogSidebarCount: 'ALL',
         showReadingTime: false,
         postsPerPage: 'ALL',
+        onUntruncatedBlogPosts: 'ignore',
+      },
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'reactnativesdk',
+        path: 'docs/reactnativesdk',
+        routeBasePath: 'reactnativesdk/docs',
+        sidebarPath: './sidebars.js',
+        breadcrumbs: true,
+        showLastUpdateTime: true
+      },
+    ],
+    [
+      '@docusaurus/plugin-content-blog',
+      {
+        id: 'reactnativesdk-releases',
+        path: 'release-notes/reactnativesdk',
+        routeBasePath: 'reactnativesdk/release-notes',
+        blogTitle: 'React Native SDK Release Notes',
+        blogDescription: 'React Native SDK product updates and changes',
+        blogSidebarTitle: 'Recent Releases',
+        blogSidebarCount: 'ALL',
+        showReadingTime: false,
+        postsPerPage: 'ALL',
+        onUntruncatedBlogPosts: 'ignore',
       },
     ],
   ],
@@ -226,6 +253,20 @@ const config = {
             ],
           },
           {
+            position: 'left',
+            label: 'React Native SDK',
+            items: [
+              {
+                label: 'Documentation',
+                to: '/reactnativesdk/docs/intro',
+              },
+              {
+                label: 'Release Notes',
+                to: '/reactnativesdk/release-notes',
+              },
+            ],
+          },
+          {
             href: 'https://github.com/zeotap/zeotap-web-sdk-docs/',
             label: 'GitHub',
             position: 'right',
@@ -271,6 +312,19 @@ const config = {
               {
                 label: 'Release Notes',
                 to: '/iossdk/release-notes',
+              },
+            ],
+          },
+          {
+            title: 'React Native SDK',
+            items: [
+              {
+                label: 'Documentation',
+                to: '/reactnativesdk/docs/intro',
+              },
+              {
+                label: 'Release Notes',
+                to: '/reactnativesdk/release-notes',
               },
             ],
           }
