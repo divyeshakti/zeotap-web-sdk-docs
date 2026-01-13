@@ -20,8 +20,8 @@ const config = {
   // // For GitHub pages deployment, it is often '/<projectName>/'
   // baseUrl: '/',
 
-  url: 'https://sdkdocs.zeotap.com/', 
-  baseUrl: '/',
+  url: 'https://zeotap.github.io', 
+  baseUrl: '/zeotap-web-sdk-docs/',
 
 
   // GitHub pages deployment config.
