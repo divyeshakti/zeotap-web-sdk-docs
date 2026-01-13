@@ -35,7 +35,9 @@ jobs:
 
       - name: Build Docusaurus site
         working-directory: my-docs
-        run: yarn build
+        run: |
+          yarn build
+          ls -lrt 
 
       - name: Setup GitHub Pages
         uses: actions/configure-pages@v5
